@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header"> 
+        <div class="header_container container">
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a class="nav_link" href="#contacts">CONTACTS</a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link" href="#skills">SKILLS</a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link" href="#courses">COURSES</a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link" href="#code">CODE</a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link" href="#languages">LANGUAGES</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main_container container">
+            <div class="section_profile">
+                <img class="section_profile_foto" src="style/photo_2022-03-05_13-31-01.jpg" alt="my foto">
+                <div class="section_profile_title">
+                    <h1 class="main_title">Vitaly Kazhuro</h1>
+                    <h3 class="subtitle">Junior Front-End Developer</h3>
+                </div>
+            </div>
+            <div class="section" id="contacts">
+                <h2 class="section_title">CONTACTS</h2>
+                    <ul class="section_list section_info_all">
+                        <li class="section_item">
+                            Phone:
+                            <a class="section_color hover_item" href="+375291472206" title="tel">+375291472206</a>
+                        </li>
+                        <li class="section_item">
+                            Telegram:
+                            <a class="section_color hover_item" href="@vitalijkazuro" title="telegram">@vitalijkazuro</a>
+                        </li>
+                        <li class="section_item">
+                            Email:
+                            <a class="section_color hover_item" href="vitalijkazuro939@gmail.com" title="email">vitalijkazuro939@gmail.com</a>
+                        </li>
+                        <li class="section_item">
+                            Github:
+                            <a class="section_color hover_item" href="https://github.com/Krombaher" title="github">Krombaher</a>
+                        </li>
+                    </ul>
+            </div>
+            <div class="section" id="about">
+                <h2 class="section_title">ABOUT</h2>
+                <p class="section_info_all"> 
+                    В настоящее время я сосредоточен на расширении своих навыков в Front-end разработке, 
+                    и моя приоритетная цель — продолжить карьеру разработчика в компании, которая будет 
+                    использовать и расширять мои знания в области ИТ и предлагать возможности для продвижения по службе. 
+                    Я трудолюбивый, инициативный, работоспособный, легко обучаемый человек с ответственным отношением к работе, 
+                    структурным мышлением, творческим подходом к решению задач. Работаю в режиме многозадачности с комфортом. 
+                    Я постоянно занимаюсь самообразованием и рад новому опыту. Меня интересует все, что связано с веб-сайтами и разработкой веб-приложений.</p>
+            </div>
+            <div class="section" id="skills">
+                <h2 class="section_title">SKILLS</h2>
+                    <ul class="section_list section_info_all">
+                        <li class="section_item">
+                            Web-development:
+                            <span class="section_color">HTML5, CSS3, JavaScript, React</span>
+                        </li>
+                        <li class="section_item">
+                            Code editor:
+                            <span class="section_color">VS Code</span>
+                        </li>
+                        <li class="section_item">
+                            Version control:
+                            <span class="section_color">GIT, Github</span>
+                        </li>
+                    </ul>
+            </div>
+            <div class="section" id="code">
+                <h2 class="section_title">CODE</h2>
+                <pre class="section_code_pre">
+                <code class="section_info_all">
+    function roughScale(x, base) {
+        const parsed = parseInt(x, base);
+        if (isNaN(parsed)) { return 0; }
+        return parsed * 100;
+        }
+                </code>
+                </pre>
+            </div>
+            <div class="section" id="courses">
+                <h2 class="section_title">COURSES</h2>
+                    <ul class="section_list section_info_all">
+                        <li class="section_item">
+                            RS Schools 
+                            <span class="section_color"> - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</span>
+                        </li>
+                        <li class="section_item">
+                            UDEMY:
+                            <a class="section_color" href="https://www.udemy.com/course/javascript_full/" title="udemy">https://www.udemy.com/course/javascript_full/</a>
+                        </li>
+                    </ul>
+            </div>
+            <div class="section" id="languages">
+                <h2 class="section_title">LANGUAGES</h2>
+                    <p class="section_info_all">English - Basic</p>
+                    <p>Russian - Native</p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer_container container">
+            <div class="footer_item">
+                © 2022 
+                <a href="https://github.com/Krombaher" class="github">VITALY KAZHURO</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
