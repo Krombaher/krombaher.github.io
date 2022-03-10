@@ -26,10 +26,10 @@ body {
     padding-top: 20px;
 }
 .section_color {
-    color: #1abc9c;
+    color:#54565a;
 }
 .hover_item:hover {
-    color: #293e49;
+    color: #e9a933;
 }
 
 /* fonts------------------------------------------------------------------- */
@@ -42,15 +42,13 @@ body {
 /* header------------------------------------------------------------------- */
 
 .header {
-    background-color: #293e49;
-    overflow:scroll;
+    background-color: #54565a;
 }
 .nav_list {
     display: flex;
     justify-content: flex-end;
     flex-wrap:wrap;
     align-items: center;
-    height: 80px;
 }
 .nav_item {
     margin: 20px;
@@ -60,12 +58,9 @@ body {
     font-size: 18px;
     padding: 5px;
 }
-.nav_link:hover {
-    border-bottom: 3px solid #1abc9c;
-}
-.nav_link:active {
-    color: dimgrey;
-}
+.nav_link:hover {   
+    color: #e9a933;
+}    
 
 /* main------------------------------------------------------------------- */
 
@@ -78,8 +73,8 @@ body {
     width: 50%;
     padding-top: 30px;
     padding-bottom: 30px;
-    border-bottom: 2px solid #293e49;
-    color: #293e49;
+    border-bottom: 2px solid #54565a;
+    color: #54565a;
     font-size: 18px;
 }
 .section_profile {
@@ -89,28 +84,29 @@ body {
     align-items: center;
     width: 100%;
     padding: 50px 30px 30px;
-    border-bottom: 2px solid #293e49;
+    border-bottom: 2px solid #54565a;
 }
 .section_profile_foto {
     width: 250px;
     height: 250px;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 0 1px 4px rgb(0 0 0 / 60%);
+    box-shadow: 0 1px 4px #00000099;
 }
 .main_title {
-    color:#293e49;;
-    font-size: 40px;
+    color:#54565a;
+    font-size: 60px;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
 .subtitle {
-    color: #293e49;
-    font-size: 30px;
+    color: #54565a;
+    font-size: 20px;
     letter-spacing: 4px;
+    text-transform: uppercase;
 }
 .section_title {
-    color: #293e49;
+    color: #e9a933;
     font-size: 30px;
     letter-spacing: 4px;
 }
@@ -118,11 +114,12 @@ body {
 /* footer------------------------------------------------------------------- */
 
 .footer {
-    background-color: #293e49;
+    background-color:#54565a;
     height: 80px;
     color: white;
     font-size: 25px;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 .github {
@@ -130,34 +127,39 @@ body {
     padding-left: 20px;
 }
 .github:hover {
-    color: #1abc9c;
+    color:#e9a933;
 }
 @media (max-width: 1440px) {
     .section {
-        padding: 20px 20px 20px 20px;
+      padding-left:20px;
+      padding-right:20px;
     }
 }
 @media (max-width: 768px) {
     .section {
       width: 100%;
     }
-}
-@media (max-width: 768px) {
     .section_profile_title {
-        padding-left: 30px;
+        text-align: center;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 425px) {
     .section {
-        padding-left: 20px;
+      text-align: center;
+    }
+    .main_title {
+        font-size: 30px;
+    }
+    .subtitle {
+        font-size: 20px;
+    }
+    .section_profile_title {
+        text-align: center;
+    }
+}
+@media (max-width: 320px) {
+    .footer {
+      font-size: 20px;
     }
 }
 
-@media (max-width: 375px) {
-    .header {
-        width: 500px;
-    }
-    .footer {
-        width: 500px;
-    }
-}
